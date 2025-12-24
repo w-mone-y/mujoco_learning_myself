@@ -41,6 +41,8 @@ density="1.225" viscosity="1.8e-5"/>
 ```
 * global:realtime仿真速度比例，在simulate中可以使用，大于1的按1计算
 * quality:画面质量
+* shadowsize:阴影质量
+* numslices:渲染质量
 * headlight：和simulate中自由相机相同方向的光源
 * map：鼠标影响操作
 * scale：渲染缩放
