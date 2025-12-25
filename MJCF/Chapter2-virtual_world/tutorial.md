@@ -35,7 +35,7 @@ density="1.225" viscosity="1.8e-5"/>
 <visual>
     <global realtime="1"/>
     <quality shadowsize="16384" numslices="28" offsamples="4" />
-    <headlight diffuse="1 1 1" specular="0.5 0.5 0.5" active="1" />
+    <headlight ambient="0.3 0.3 0.3" diffuse="0.3 0.3 0.3" specular="0.1 0.1 0.1" active="1" /><!--headlight常用配置-->
     <rgba fog="0 1 0 1" haze="1 0 0 1"/>
 </visual>
 ```
